@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coding Quiz Challenge</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- container for header -->
+      <div class= "main-header">
+        <div class='view-high-scores'>View high scores</div>
+        <span>Timer: <span class='timer-count'> 75</span></span>
+      </div>
+      <!-- end container for header -->
+    </header>
+    <main>
+      <section>
+        <!-- container for main start page -->
+        <div class="main-container">
+          <div class="title"></div>
+          <div class="description"></div>
+          <div class="start-button"></div>
+        </div>
+        <!-- end for main start page -->
+        <!-- container for score section -->
+        <div class ='score-section'>
+          <div class="high-score"></div>
+          <div class ="show-score">1. <span id="user-initial"></span> - <span id="user-score"></span></div>
+          <div class=score-buttons><button id="go-back">Go back</button><button id="clear-scores">Clear high scores</button></div>
+        </div>
+        <!-- end for score section -->
+        <!-- container for quiz section -->
+        <div class="quiz-section">
+            <div class="question-container" id="question">
+                <!-- Quiz Question-->
+            </div>
+            <div class="option-container">
+                <button class="option" id="op1" ></button>
+                <button class="option" id="op2" ></button>
+                <button class="option" id="op3"></button>
+                <button class="option" id="op4"></button>
+            </div>
+            <span class = "score-details">
+              <h1>All done!</h1>
+              <div>Your final score is <span class='score-count'> </span></div>
+              <label for="score">Enter initials:</label>
+              <input name="score" id="score-initial" type="text" placeholder=""/>
+              <button id="submit-score">Submit</button>
+            </span>
+            <div class = "result">
+                <!-- Result section -->
+            </div>
+            <!-- end for quiz section -->
+        </div>
+         </div>
+      </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
