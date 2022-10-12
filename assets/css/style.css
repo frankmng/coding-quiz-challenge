@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: auto;
+    min-height: 100vh;
+  }
+  
+  /* Section for the header, title, description, and button */
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .view-high-scores {
+    color: rgb(177, 42, 240);
+  }
+  
+  .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    max-width: 570px;
+  }
+  
+  .title {
+    margin:50px 0 -30px 0;
+    font-size: 32px;
+   
+  }
+  
+  .description {
+    font-size: 18px;
+  }
+  
+   .start-button {
+    margin: 20px 0;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 7px;
+    background-color: rgb(33, 19, 109);
+  } 
+  
+  .start-button:hover {
+      background-color: rgb(177, 42, 240);
+  }
+  
+  /* Section for the score section */
+  .score-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    max-width: 570px;
+  }
+  
+  .high-score {
+    margin:50px 0 -15px 0;
+    font-size: 24px;
+    text-align: left; 
+  }
+  
+  .show-score {
+    text-align: left;
+    background-color: rgba(221, 203, 250, 0.856);
+    padding: 7px;
+  }
+  
+  .score-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+  }
+  
+  .score-buttons button {
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    margin: 15px 0;
+    padding:5px 10px;
+    border-radius: 7px;
+    background-color: rgb(33, 19, 109);
+  }
+  
+  .high-score{
+    margin: 70px 0 15px 0;
+    font-size: 32px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  #go-back {
+    margin-right: 10px;
+  }
+  
+  /* Section for quiz questions and answer options*/
+  .question-container {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .quiz-section {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-items: left;
+    width: 570px;
+    margin: auto;
+  }
+  
+  /* Display buttons vertically */
+  .option {
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    width: 40%;
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(33, 19, 109);
+  }
+  
+  .question-list {
+    list-style: none;
+    margin-left: -40px;
+  }
+  .question-list li {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    width: 40%;
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(33, 19, 109);
+  }
+  .option:hover {
+    background-color: rgb(177, 42, 240);
+  }
+  
+  .result {
+    padding: 20px;
+  }
+  
+  .question {
+    visibility:hidden;
+  }
+  
+  .quiz-questions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #question-title {
+    margin:50px 0 0 0;
+    font-size: 32px;
+    text-align: left;
+    font-weight: bold;
+   
+  }
+  
+  /* Section for inputting your initials and submitting your score */
+  input[type=text] {
+    width: 50%;
+    padding: 4px 10px;
+    margin: 8px 8px 0 0;
+    box-sizing: border-box;
+  }
+  
+  #submit-score {
+    margin: 20px 0;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 7px;
+    background-color: rgb(33, 19, 109);
+  } 
+  
+  #score-button:hover {
+      background-color: rgb(177, 42, 240);
+  }
+  
+  .score-details {
+    font-size: 24px;
+  }
+  
+  
